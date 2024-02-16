@@ -64,12 +64,6 @@ To run a specific test file:
 npx playwright test tests/login.spec.ts
 ```
 
-Filter tests by tags:
-
-```sh
-npx playwright test --grep @tagname
-```
-
 ## Tests and Page Objects
 
 - **Tests**: Located in the `tests/` directory. For example, see `login.spec.ts` for login tests and `payLinks.spec.ts` for tests related to payment links.
